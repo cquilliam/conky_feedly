@@ -24,7 +24,7 @@ This conky script allows you to display the unread articles of a given Feedly ca
 
 Nothing displayed?  
 
-Try running from the console "conky ~/.conky/Feedly/conkyrc" and see what the message is.  Probably a missing python module or something.
+Try running from the console "conky -c ~/.conky/Feedly/conkyrc" and see what the message is.  Probably a missing python module or something.
 
 Credits
 
