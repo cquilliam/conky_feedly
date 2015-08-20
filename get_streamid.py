@@ -40,7 +40,7 @@ def callback(request):
 	access_token=res_access_token['access_token']
 json_data=open(expanduser('~')+'/.conky/Feedly/settings.json')
 data=json.load(json_data)
-access_token=data['feedly']['access_token']
+access_token=data['access_token']
 client = get_feedly_client(access_token)
 categories = client.get_user_categories(access_token)
 for item in categories:
