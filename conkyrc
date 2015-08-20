@@ -93,4 +93,4 @@ own_window_transparent no
 TEXT
 ${alignc}${color1}${font Zocial:style=Bold:pixelsize=18}R${font}
 ${color7}${hr}${color}
-${execpi 600 ~/.conky/Feedly/scripts/feed_read.py}
+${execpi 600 ~/.conky/Feedly/feed_read.py}
